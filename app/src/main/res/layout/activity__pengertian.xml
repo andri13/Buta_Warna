@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A678"
+    tools:context="com.example.andri.myapplication.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dp"
+                android:text="PENGERTIAN"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dp"
+                android:text="Buta warna adalah berkurangnya kualitas penglihatan terhadap warna yang umumnya diturunkan kepada anak dari orang tua sejak dilahirkan. Penderita buta warna cenderung mengalami kesulitan saat melihat warna merah, hijau, biru, atau campuran warna-warna ini.
+
+Kasus buta warna total sangat jarang ditemukan dan kebanyakan penderita buta warna bisa beradaptasi dengan kondisi ini sehingga tidak selalu dianggap sebagai kondisi yang serius. Beberapa kasus penyakit buta warna juga dapat dialami pada fase hidup dewasa.
+"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Back" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

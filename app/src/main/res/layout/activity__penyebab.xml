@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#03A678"
+    android:layout_height="match_parent"
+    tools:context="com.example.andri.myapplication.Activity_Penyebab">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penyebab"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:layout_margin="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Proses melihat warna melintasi spektrum cahaya diawali dengan kemampuan alamiah mata dalam membedakan warna-warna dasar, seperti warna merah, biru, dan hijau. Namun, mata seorang penderita buta warna tidak dapat melihat atau membedakan warna sebagaimana mata normal. Hal ini terjadi karena ada gangguan pigmen pada reseptor penglihatan warna (sel kerucut di mata). Ketika salah satu pigmen hilang, maka mata akan memiliki masalah dalam melihat warna tertentu."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Dalam banyak kasus, buta warna disebabkan oleh faktor genetik orang tua, namun bisa saja terjadi akibat efek samping dari sebuah pengobatan atau gangguan kesehatan yang telah ada sebelumnya."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Ada beberapa penyebab seseorang mengalami buta warna, di antaranya:"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Faktor genetik. Kebanyakan penderita buta warna yang mengalaminya sejak lahir disebabkan oleh faktor genetik yang berikatan dengan kromosom X. Seorang ayah penderita buta warna tidak akan memiliki anak yang menderita buta warna kecuali pasangannya memiliki gen buta warna. Hal ini mungkin karena wanita lebih berperan dalam menjadi pembawa gen (carrier) yang akan mewarisi buta warna kepada anak. Penderita buta warna akibat faktor genetik juga jauh lebih sering terjadi pada pria dibandingkan wanita, walau terkadang kondisi ini dapat melewati satu generasi. Anak perempuan dipastikan mengidap buta warna jika kedua orang tua adalah pembawa gen buta warna."
+                />
+
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Penyakit. Terdapat sejumlah penyakit yang bisa menyebabkan buta warna, seperti penyakit Parkinson, penyakit Alzheimer, glaukoma, kanker darah (leukemia), diabetes, pecandu minuman beralkohol kronis, degenerasi makula, dan anemia sel sabit."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Usia. Kemampuan seseorang untuk membedakan warna perlahan-lahan akan berkurang seiring pertambahan usia. Ini adalah hal yang alami dalam proses penuaan dan tidak perlu dicemaskan secara berlebihan."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Bahan kimia. Seseorang bisa mengalami buta warna jika terpapar bahan kimia beracun, misalnya di tempat kerja, seperti karbon disulfida dan pupuk."
+                />
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text=" Efek samping pengobatan tertentu. Beberapa pengobatan berpotensi menyebabkan buta warna, seperti digoxin, phenytoin, klorokuin, dan sildenafil. Jika gangguan disebabkan oleh pengobatan, biasanya pandangan akan kembali normal setelah berhenti mengonsumsi obat."
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_margin="10dp"
+                android:id="@+id/back"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+

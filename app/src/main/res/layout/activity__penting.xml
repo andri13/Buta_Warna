@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A678"
+    tools:context="com.example.andri.myapplication.Activity_Penting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Penting !"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Penting bagi orang tua untuk dapat mengenali karakteristik dan gejala-gejala buta warna sejak awal karena kondisi ini dapat berdampak kepada kemampuan belajar anak. Anak-anak yang mengalami buta warna akan merasa kesulitan dalam menjalani aktivitas sehari-hari di rumah maupun di lingkungan luar rumah, termasuk di sekolah jika guru tidak mengetahui masalah ini juga. Beberapa contoh aktivitas penting lain yang bisa terganggu, yaitu:"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Kesulitan membedakan rambu lalu lintas."
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Membedakan obat yang tidak dilabeli dengan baik."
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Membedakan daging matang dan mentah."
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Memengaruhi pilihan pekerjaan yang memerlukan pengenalan warna secara akurat, seperti masinis, pemandu lalu-lintas udara, pilot, dan ahli listrik."
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Walau sampai saat ini belum ada obat atau metode untuk mengobati buta warna, namun banyak penderita buta warna yang mampu belajar untuk beradaptasi dan menemukan cara dalam mengatasi masalah pembedaan warna. Di samping itu, teknologi medis juga telah menciptakan alat bantu bagi penderita buta warna, seperti lensa mata khusus dan disediakannya setelan tertentu pada perangkat elektronik, perlengkapan rumah tangga, atau komputer demi memudahkan hambatan yang ditemui oleh pengidap kondisi ini. Orang-orang di sekitar pengidap buta warna pun dapat turut membantu, misalnya dengan menyiapkan alat belajar yang sesuai atau memeriksa makanan sebelum dikonsumsi pengidap."
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Gejala buta warna masih dapat dikurangi dengan mengobati kondisi-kondisi yang mendasarinya atau jika buta warna yang diderita diakibatkan oleh pengobatan tertentu atau gangguan kesehatan yang telah ada sebelumnya."
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Back" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
